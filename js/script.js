@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
                        el.placeholder = text;
                     }
                 } else {
-                     el.textContent = text;
+                     // Use innerHTML instead of textContent to render the <br> tag
+                     el.innerHTML = text;
                 }
             }
         });
@@ -54,3 +55,4 @@ document.addEventListener('DOMContentLoaded', () => {
         setLanguage('en');
     }
 });
+

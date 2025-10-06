@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | HatakeSmoke</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="https://i.imgur.com/B06rBhI.png" alt="HatakeSmoke Logo" class="logo">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-lang-en="Home" data-lang-sv="Hem">Home</a></li>
+                    <li><a href="about.html" data-lang-en="About Us" data-lang-sv="Om oss">About Us</a></li>
+                    <li><a href="strategy.html" data-lang-en="Our Strategy" data-lang-sv="Vår strategi">Our Strategy</a></li>
+                    <li><a href="partners.html" data-lang-en="Partners" data-lang-sv="Partners">Partners</a></li>
+                    <li><a href="investors.html" data-lang-en="Investors" data-lang-sv="Investerare">Investors</a></li>
+                    <li><a href="contact.html" class="active" data-lang-en="Contact" data-lang-sv="Kontakt">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <div class="container">
+                <h1 data-lang-en="Get in Touch" data-lang-sv="Kontakta oss">Get in Touch</h1>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3 data-lang-en="Corporate Headquarters" data-lang-sv="Huvudkontor">Corporate Headquarters</h3>
+                        <p>HatakeSmoke AB<br>521 37 Falköping<br>Sweden</p>
+                        
+                        <h3 data-lang-en="General Inquiries" data-lang-sv="Allmänna förfrågningar">General Inquiries</h3>
+                        <p><a href="mailto:info@hatakesmoke.com">info@hatakesmoke.com</a></p>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-lang-en="Name" data-lang-sv="Namn">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" data-lang-en="Company" data-lang-sv="Företag">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-lang-en="Email" data-lang-sv="E-post">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-lang-en="Message" data-lang-sv="Meddelande">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" data-lang-en="Send Message" data-lang-sv="Skicka meddelande">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <p>&copy; 2025 HatakeSmoke AB. <span data-lang-en="All Rights Reserved." data-lang-sv="Alla rättigheter förbehållna.">All Rights Reserved.</span></p>
+                <div class="footer-links">
+                    <a href="#" data-lang-en="Privacy Policy" data-lang-sv="Integritetspolicy">Privacy Policy</a> | 
+                    <a href="#" data-lang-en="Terms of Use" data-lang-sv="Användarvillkor">Terms of Use</a>
+                </div>
+                <div class="language-selector">
+                    <a href="#" id="lang-en">English</a> | 
+                    <a href="#" id="lang-sv">Svenska</a>
+                </div>
+            </div>
+            <div class="footer-disclaimer">
+                <p data-lang-en="This website is intended for business partners, investors, and industry professionals. It is not intended for consumers." data-lang-sv="Denna webbplats är avsedd för affärspartners, investerare och branschfolk. Den är inte avsedd för konsumenter.">This website is intended for business partners, investors, and industry professionals. It is not intended for consumers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
